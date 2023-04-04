@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+
+</head>
+
+<body>
+    <main>
+
+        <div class="calBg">
+            <div class="cal-body">
+                <!-- <div class="year-input">
+                    <div class="input-cont">
+                        <p>day</p>
+                        <input class="input" type="number">
+                    </div>
+
+                    <div class="input-cont">
+                        <p>month</p>
+                        <input class="input" type="number">
+                    </div>
+                    <div class="input-cont">
+                        <p>year</p>
+                        <input class="input" type="number">
+                    </div>
+                </div> -->
+
+                <form class="form">
+                    <div class="form-container">
+                        <p class="day">Day</p>
+                        <input type="number" class="day input" placeholder="DD" min="1" max="31">
+                        <p class="error small hidden" >Must be a valid day </p>
+                    </div>
+                    <div>
+                        <p>Month</p>
+                        <input type="number" class="month input" placeholder="MM" min="1" max="12">
+                        <p class="error small hidden">Must be a valid month</p>
+                    </div>
+                    <div>
+                        <p>Year</p>
+                        <input type="number" class="year input" placeholder="YYYY" min="1" max="2023">
+                        <p class="error small hidden">Must not exceed 2023</p>
+                    </div>
+                    
+                </form>
+
+                <div class="line">
+                    <div class="line-blk"></div>
+                    <img class="iconImg" src="../age-calc/images/dwn-btn.png" />
+                </div>
+                <div class="line">.</div>
+
+                <div class="year-row">
+                    <h3 class="num">38</h3>
+                    <p class="year-text">years</p>
+                </div>
+                <div class="year-row">
+                    <h3 class="num">8</h3>
+                    <p class="year-text">months</p>
+                </div>
+                <div class="year-row">
+                    <h3 class="num">38</h3>
+                    <p class="year-text">days</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </main>
+
+</body>
+
+</html>
