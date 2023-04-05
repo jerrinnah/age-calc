@@ -16,44 +16,29 @@
 
         <div class="calBg">
             <div class="cal-body">
-                <!-- <div class="year-input">
-                    <div class="input-cont">
-                        <p>day</p>
-                        <input class="input" type="number">
-                    </div>
-
-                    <div class="input-cont">
-                        <p>month</p>
-                        <input class="input" type="number">
-                    </div>
-                    <div class="input-cont">
-                        <p>year</p>
-                        <input class="input" type="number">
-                    </div>
-                </div> -->
 
                 <form class="form">
                     <div class="form-container">
-                        <p class="day">Day</p>
+                        <p class="dayText">Day</p>
                         <input type="number" class="day input" placeholder="DD" min="1" max="31">
-                        <p class="error small hidden" >Must be a valid day </p>
+                        <p class="errorDay small hidden" >Must be a valid day </p>
                     </div>
                     <div>
-                        <p>Month</p>
+                        <p class="monthText">Month</p>
                         <input type="number" class="month input" placeholder="MM" min="1" max="12">
-                        <p class="error small hidden">Must be a valid month</p>
+                        <p class="errorMonth small hidden">Must be a valid month</p>
                     </div>
                     <div>
-                        <p>Year</p>
+                        <p class="yearText">Year</p>
                         <input type="number" class="year input" placeholder="YYYY" min="1" max="2023">
-                        <p class="error small hidden">Must not exceed 2023</p>
+                        <p class="errorYear small hidden">Must not exceed 2023</p>
                     </div>
                     
                 </form>
 
                 <div class="line">
                     <div class="line-blk"></div>
-                    <img class="iconImg" src="../age-calc/images/dwn-btn.png" />
+                    <img class="formBtn" src="../age-calc/images/dwn-btn.png" />
                 </div>
                 <div class="line">.</div>
 
