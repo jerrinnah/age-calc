@@ -10,18 +10,18 @@
   /* align-content: center */
 }
 
-.form{
-    display: flex;
-    flex-direction: row;
+.form {
+  display: flex;
+  flex-direction: row;
 }
 
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
 
-.form-container{
-    display: flex;
-    flex-direction: column;
+.form-container {
+  display: flex;
+  flex-direction: column;
 }
 .cal-body {
   height: 596px;
@@ -105,7 +105,28 @@ hr {
   padding-left: 20px;
 }
 
-.year-row {
+.month-output {
+  font-size: 99px;
+  font-style: italic;
+  font-weight: 700;
+  color: red;
+  /* background-color: yellow; */
+}
+.day-output {
+  font-size: 99px;
+  font-style: italic;
+  font-weight: 700;
+  color: red;
+  /* background-color: blue; */
+}
+.year-output {
+    font-size: 99px;
+    font-style: italic;
+    font-weight: 700;
+    color: red;
+  }
+
+.output-container {
   height: 70px;
   display: flex;
   flex-direction: row;
@@ -113,14 +134,9 @@ hr {
   padding: 10px;
   /* background-color: blueviolet; */
 }
-.num {
-  font-size: 99px;
-  font-style: italic;
-  font-weight: 700;
-  color: red;
-}
 
-.year-text {
+
+.period-text {
   font-size: 99px;
   font-style: italic;
   color: gray;
