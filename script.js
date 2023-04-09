@@ -12,12 +12,19 @@ const errorYear = document.querySelector('.error-year')
 const dayText = document.querySelector('.p-day')
 const monthText = document.querySelector('.p-month')
 const yearText = document.querySelector('.p-year')
+const monthView = document.querySelector('.monthView')
 
 daysInput.addEventListener("input", function() {
-    if (this.value.length > 2) {
-        this.value = this.value.slice(0, 2);
+    if (value.length > 2) {
+        value = value.slice(0, 2);
     }
-    });
+});
+    
+// monthsOutput.addEventListener('change', function () {
+//     if (value === 1 ) {
+//         monthView.classList.add('month')
+//     }
+// })
 
 monthsInput.addEventListener("input", function() {
     if (this.value.length > 2) {
